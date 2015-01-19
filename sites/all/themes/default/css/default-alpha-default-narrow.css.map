@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;AAKA,sBAAuB;EACrB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;;AAGZ,uBAAwB;EACtB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG",
+"sources": ["default-alpha-default-narrow.scss"],
+"names": [],
+"file": "default-alpha-default-narrow.css"
+}
