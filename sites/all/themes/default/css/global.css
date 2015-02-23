@@ -4,7 +4,8 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body {
   font-size: 100%;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background: #e7e7e7; }
 
 img {
   max-width: 100%;
@@ -14,7 +15,10 @@ img {
 
 .logo-img {
   margin: 0;
-  width: 100%; }
+  position: absolute;
+  z-index: 100;
+  left: 50px;
+  width: 75%; }
 
 h1 {
   font-size: 2.2em;
@@ -24,7 +28,7 @@ h1 {
 h2 {
   font-size: 1.8em;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600; }
+  font-weight: 400; }
 
 h2.block-title {
   font-size: 1.8em;
@@ -135,5 +139,93 @@ input[type="button"]:hover,
 .ds-2col > .group-right {
   float: left;
   width: 100%; }
+
+.view-homepage-items .field-name-node-link {
+  padding: 0.5em;
+  background: none repeat scroll 0% 0% #FFB033;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px; }
+  .view-homepage-items .field-name-node-link a, .view-homepage-items .field-name-node-link a:link {
+    color: #000; }
+.view-homepage-items .field-name-body {
+  margin-bottom: 20px; }
+.view-homepage-items .field-name-field-afbeelding-homepage-item {
+  margin: 20px 0; }
+.view-homepage-items .views-row {
+  width: 27%;
+  float: left;
+  padding: 3.16%;
+  text-align: center; }
+
+#block-views-homepage-items-block .block-title, #block-block-5 {
+  text-align: center;
+  padding: 20px;
+  background: #2e2e2e;
+  color: #fff; }
+
+.region-postscript-first-inner {
+  background: #e7e7e7; }
+
+#zone-footer-wrapper {
+  background: #2e2e2e;
+  padding: 50px 0;
+  color: #fff; }
+  #zone-footer-wrapper a, #zone-footer-wrapper a:link {
+    color: #fff; }
+
+#zone-branding-wrapper {
+  background: #2e2e2e; }
+
+#region-menu {
+  width: 90%; }
+
+#block-superfish-1 {
+  float: right;
+  padding: 2.5em;
+  text-transform: lowercase;
+  font-weight: 100; }
+  #block-superfish-1 a, #block-superfish-1 a:link {
+    color: #fff; }
+  #block-superfish-1 li {
+    padding-left: 20px; }
+
+#block-block-7 {
+  padding: 1%; }
+
+ul.menu li {
+  margin: 0; }
+
+#block-superfish-2 h2.block-title {
+  margin-bottom: 20px; }
+
+.group-left img, .group-right img {
+  margin-bottom: 25px;
+  margin-top: 25px; }
+
+.group-left .field-name-field-tekst, .group-right .field-name-field-tekst {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 35px; }
+
+.node-page .field-name-field-title {
+  text-align: center;
+  padding: 20px;
+  background: none repeat scroll 0% 0% #2E2E2E;
+  color: #FFF;
+  font-size: 2em;
+  margin-top: 25px; }
+
+#node-webform-11 .group-right {
+  margin-top: 25px; }
+
+.label-heading {
+  text-align: center;
+  padding: 20px;
+  background: none repeat scroll 0% 0% #2E2E2E;
+  color: #FFF;
+  font-size: 2em;
+  margin-top: 25px; }
 
 /*# sourceMappingURL=global.css.map */

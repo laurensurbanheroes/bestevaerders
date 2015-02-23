@@ -9,6 +9,7 @@ $font: 'Open Sans', sans-serif;
 body{
   font-size: 100%;
   font-family: $font;
+  background: #e7e7e7;
 }
 
 img{
@@ -20,7 +21,10 @@ img{
 
 .logo-img{
   margin: 0;
-  width: 100%;
+  position: absolute;
+  z-index: 100;
+  left: 50px;
+  width: 75%;
 }
 
 h1{
@@ -32,7 +36,7 @@ h1{
 h2{
   font-size: 1.8em;
   font-family: $font;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h2.block-title{
@@ -159,4 +163,127 @@ input[type="button"]:hover,
 .ds-2col > .group-right {
   float: left;
   width: 100%;
+}
+
+.view-homepage-items {
+  .field-name-node-link {
+    padding: 0.5em;
+    background: none repeat scroll 0% 0% #FFB033;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    a, a:link {
+      color: #000;
+    }
+  }
+  .field-name-body {
+    margin-bottom: 20px;
+  }
+  .field-name-field-afbeelding-homepage-item {
+    margin: 20px 0;
+}
+
+  .views-row {
+    width: 27%;
+    float: left;
+    padding: 3.16%;
+    text-align: center;
+  }
+}
+
+#block-views-homepage-items-block .block-title, #block-block-5 {
+  text-align: center;
+  padding: 20px;
+  background: #2e2e2e;
+  color: #fff;
+}
+
+.region-postscript-first-inner {
+  background: #e7e7e7;
+}
+
+#zone-footer-wrapper {
+  background: #2e2e2e;
+  padding: 50px 0;
+  color: #fff;
+  a, a:link {
+    color: #fff;
+  }
+}
+
+#zone-branding-wrapper {
+  background: #2e2e2e;
+}
+
+#region-menu {
+  width: 90%;
+}
+
+#block-superfish-1 {
+  float: right;
+  padding: 2.5em;
+  text-transform: lowercase;
+  font-weight: 100;
+  a, a:link {
+    color: #fff;
+  }
+  li {
+    padding-left: 20px;
+  }
+}
+
+#block-block-7 {
+  padding: 1%;
+}
+
+ul.menu li {
+  margin: 0;
+}
+
+#block-superfish-2 {
+  h2.block-title {
+    margin-bottom: 20px;
+  }
+}
+
+.group-left, .group-right {
+  img {
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+  }
+}
+
+
+.group-left, .group-right {
+  .field-name-field-tekst {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 35px;
+  }
+}
+
+.node-page .field-name-field-title {
+  text-align: center;
+  padding: 20px;
+  background: none repeat scroll 0% 0% #2E2E2E;
+  color: #FFF;
+  font-size: 2em;
+  margin-top: 25px;
+}
+
+#node-webform-11 {
+  .group-right {
+    margin-top: 25px;
+  }
+}
+
+.label-heading {
+  text-align: center;
+  padding: 20px;
+  background: none repeat scroll 0% 0% #2E2E2E;
+  color: #FFF;
+  font-size: 2em;
+  margin-top: 25px;
 }
