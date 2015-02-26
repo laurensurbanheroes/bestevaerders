@@ -1,1 +1,13 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+.logo-img{
+  max-width: 200px;
+  left: 70px;
+}
+
+.view-homepage-items {
+  .views-row {
+    width: 27%;
+    padding: 3.16%;
+  }
+}

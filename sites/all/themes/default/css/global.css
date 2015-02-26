@@ -17,8 +17,8 @@ img {
   margin: 0;
   position: absolute;
   z-index: 100;
-  left: 50px;
-  width: 75%; }
+  left: 10px;
+  max-width: 120px; }
 
 h1 {
   font-size: 2.2em;
@@ -140,22 +140,24 @@ input[type="button"]:hover,
   float: left;
   width: 100%; }
 
-.view-homepage-items .field-name-node-link {
-  padding: 0.5em;
+.view-homepage-items .field-name-field-lees-verder a, .view-homepage-items .field-name-field-lees-verder a:link {
+  padding: 0.5em 2em;
   background: none repeat scroll 0% 0% #FFB033;
   width: 50%;
   margin: 0 auto;
-  margin-top: 20px; }
-  .view-homepage-items .field-name-node-link a, .view-homepage-items .field-name-node-link a:link {
-    color: #000; }
+  margin-top: 20px;
+  color: #000; }
+.view-homepage-items .field-name-field-lees-verder a:hover {
+  color: #fff;
+  background: none repeat scroll 0% 0% #2e2e2e; }
 .view-homepage-items .field-name-body {
   margin-bottom: 20px; }
 .view-homepage-items .field-name-field-afbeelding-homepage-item {
   margin: 20px 0; }
 .view-homepage-items .views-row {
-  width: 27%;
+  width: 90%;
   float: left;
-  padding: 3.16%;
+  padding: 1%;
   text-align: center; }
 
 #block-views-homepage-items-block .block-title, #block-block-5 {
@@ -170,7 +172,8 @@ input[type="button"]:hover,
 #zone-footer-wrapper {
   background: #2e2e2e;
   padding: 50px 0;
-  color: #fff; }
+  color: #fff;
+  margin-top: 25px; }
   #zone-footer-wrapper a, #zone-footer-wrapper a:link {
     color: #fff; }
 

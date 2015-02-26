@@ -23,8 +23,8 @@ img{
   margin: 0;
   position: absolute;
   z-index: 100;
-  left: 50px;
-  width: 75%;
+  left: 10px;
+  max-width: 120px;
 }
 
 h1{
@@ -166,14 +166,18 @@ input[type="button"]:hover,
 }
 
 .view-homepage-items {
-  .field-name-node-link {
-    padding: 0.5em;
-    background: none repeat scroll 0% 0% #FFB033;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 20px;
+  .field-name-field-lees-verder {
     a, a:link {
+      padding: 0.5em 2em;
+      background: none repeat scroll 0% 0% #FFB033;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 20px;
       color: #000;
+    }
+    a:hover {
+      color: #fff;
+      background: none repeat scroll 0% 0% #2e2e2e;
     }
   }
   .field-name-body {
@@ -184,9 +188,9 @@ input[type="button"]:hover,
 }
 
   .views-row {
-    width: 27%;
+    width: 90%;
     float: left;
-    padding: 3.16%;
+    padding: 1%;
     text-align: center;
   }
 }
@@ -206,6 +210,7 @@ input[type="button"]:hover,
   background: #2e2e2e;
   padding: 50px 0;
   color: #fff;
+  margin-top: 25px;
   a, a:link {
     color: #fff;
   }

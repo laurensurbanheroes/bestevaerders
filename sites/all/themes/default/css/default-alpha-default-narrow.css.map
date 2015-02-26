@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";;;;AAKA,sBAAuB;EACrB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;;AAGZ,uBAAwB;EACtB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG",
+"mappings": ";;;;AAKA,sBAAuB;EACrB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;;AAGZ,uBAAwB;EACtB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;;AAGZ,SAAS;EACP,SAAS,EAAE,KAAK;EAChB,IAAI,EAAE,IAAI;;AAIV,+BAAW;EACT,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,KAAK",
 "sources": ["default-alpha-default-narrow.scss"],
 "names": [],
 "file": "default-alpha-default-narrow.css"
