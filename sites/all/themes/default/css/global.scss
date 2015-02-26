@@ -281,8 +281,14 @@ ul.menu li {
 #node-webform-11 {
   .group-right {
     margin-top: 25px;
+    clear: both;
+    width: 100%;
+  }
+  .group-left {
+    width: 100%;
   }
 }
+
 
 .label-heading {
   text-align: center;

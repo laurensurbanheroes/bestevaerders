@@ -221,7 +221,11 @@ ul.menu li {
   margin-top: 25px; }
 
 #node-webform-11 .group-right {
-  margin-top: 25px; }
+  margin-top: 25px;
+  clear: both;
+  width: 100%; }
+#node-webform-11 .group-left {
+  width: 100%; }
 
 .label-heading {
   text-align: center;
